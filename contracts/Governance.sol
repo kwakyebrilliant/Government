@@ -8,7 +8,6 @@ import "@openzeppelin/contracts/governance/extensions/GovernorVotesQuorumFractio
 import "@openzeppelin/contracts/governance/extensions/GovernorTimelockControl.sol";
 
 // NOTE: Contract created with the help of --> https://wizard.openzeppelin.com/#governor
-
 contract Governance is
     Governor,
     GovernorCountingSimple,
