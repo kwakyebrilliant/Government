@@ -54,7 +54,6 @@ module.exports = async function (deployer) {
     await treasury.transferOwnership(timelock.address, { from: executor })
 
     // Assign roles
-
     // You can view more information about timelock roles from the openzeppelin documentation:
     // --> https://docs.openzeppelin.com/contracts/4.x/api/governance#timelock-proposer
     // --> https://docs.openzeppelin.com/contracts/4.x/api/governance#timelock-executor
