@@ -41,7 +41,6 @@ module.exports = async function (deployer) {
     const governance = await Governance.deployed()
 
     // Deploy Treasury
-
     // Timelock contract will be the owner of our treasury contract.
     // In the provided example, once the proposal is successful and executed,
     // timelock contract will be responsible for calling the function.
